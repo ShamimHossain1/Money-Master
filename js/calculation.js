@@ -23,7 +23,7 @@ document.getElementById('calculate-button').addEventListener('click', function (
         return;
     }
     if(isNaN(Income) || isNaN(Food) || isNaN(Rent) || isNaN(Clothes)) {
-        alert("Input Valid Number you illiterate");
+        alert("Input a Valid Number you illiterate");
         return;
     }
 
@@ -48,7 +48,7 @@ document.getElementById('save-btn').addEventListener('click', function () {
     const Saving = Income * SaveParcent/100;
 
     if(isNaN(SaveParcent)) {
-        alert("Input Valid Number you illiterate");
+        alert("Input a Valid Number you illiterate");
         return;
     }
 
